@@ -12,5 +12,5 @@ export const secret = process.env.SECRET || 'dasklflajkdfjkasdfjklajklfjklasdfjk
 
 export const dbURI = environment === 'production'
 
-? process.env.MONGODB_URI
-: `mongo://localhost/arrivrdb-${environment}`
+  ? process.env.MONGODB_URI
+  : `mongo://localhost/arrivrdb-${environment}`
